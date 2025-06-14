@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="kselis_logo/kselis_logo_nobg_light.png" type="image/x-icon">
+  <title>Machine Learning</title>
+</head>
+<body>
+  <p>content will be updated soon . . .</p>
+  <a class="button" id="print" onclick="hideTemporarily(); window.print()">Save as PDF</a>
+  <a class="button" id="next" href="supervised-learning.html">Next -></a>
+  <script>
+    function hideTemporarily() {
+      const element1 = document.getElementById("print");
+      const element2 = document.getElementById("next");
+      
+      element1.style.display = "none"; 
+      element2.style.display = "none";
+
+      // Show it again after 3 seconds (3000 milliseconds)
+      setTimeout(() => {
+        element.style.display = "inline-block";
+      }, 2000);
+    }
+  </script>
+</body>
+</html>

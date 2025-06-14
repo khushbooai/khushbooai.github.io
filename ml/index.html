@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Machine Learning | Kselis" />
+  <meta property="og:description" content="This portal provides easy access to all Machine Learning notes shared during Classes of Machine Learning by the Tutor. These concise revision notes are free to view and share for read-only purposes." />
+  <meta property="og:image" content="https://kselis.github.io/kselis_logo/ml_notes.png" />
+  <meta property="og:url" content="https://kselis.github.io/notes/ml" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://kselis.github.io/kselis_logo/kselis_logo_nobg_light.png" type="image/x-icon">
+  <title>Machine Learning | Kselis</title>
+  <!-- Importing Raleway font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* Header Styles */
+    .header {
+      background: linear-gradient(135deg, #4a4a4a, #2e2e2e);
+      color: #fff;
+      padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .header-inner {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .greeting {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 10px 0;
+    }
+    .description {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+    .description h2 {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    .description p {
+      margin: 5px 0 0;
+    }
+    /* Container Styles */
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    /* Card Styles */
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.6rem;
+      color: #333;
+    }
+    .card p {
+      font-size: 1rem;
+      margin: 10px 0 20px;
+      line-height: 1.5;
+    }
+    .card a {
+      text-decoration: none;
+      color: #fff;
+      background: #333;
+      padding: 10px 15px;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    .card a:hover {
+      background: #555;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+      }
+      .greeting {
+        font-size: 1.8rem;
+      }
+      .description h2 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="greeting">
+        Hello, User!
+      </div>
+      <div class="description">
+        <h2>Notes for Machine Learning</h2>
+        <p>These are short notes for revision purposes; they can be used by anyone and shared freely for read-only purposes.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="container">
+    <div class="card-container">
+      <!-- Card 1: Machine Learning -->
+      <div class="card">
+        <h3>Machine Learning</h3>
+        <p>This module explores how machines learn from data to make smart decisions.</p>
+        <a href="machine-learning.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 2: Supervised Learning -->
+      <div class="card">
+        <h3>Supervised Learning</h3>
+        <p>This module covers Supervised Learning using labeled data for prediction tasks.</p>
+        <a href="supervised-learning.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 3: Unsupervised Learning -->
+      <div class="card">
+        <h3>Unsupervised Learning</h3>
+        <p>This module covers Unsupervised Learning using unlabeled data for prediction tasks.</p>
+        <a href="unsupervised-learning.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 4: Regression I -->
+      <div class="card">
+        <h3>Regression (I)</h3>
+        <p>This module covers Regression using Linear and Polynomial models for prediction.</p>
+        <a href="regression-i.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 5: Loss Functions -->
+      <div class="card">
+        <h3>Loss Functions</h3>
+        <p>This module covers Loss Functions used to measure prediction errors like MSE, MAE, etc.</p>
+        <a href="loss-function.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 6: Evaluation Metrices -->
+      <div class="card">
+        <h3>Evaluation Metrices</h3>
+        <p>This module covers Evaluation Metrics for Regression, R<sup>2</sup> and Adjusted R<sup>2</sup>.</p>
+        <a href="evaluation-metrices.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 7: Underfitting -->
+      <div class="card">
+        <h3>Underfitting</h3>
+        <p>This module explains Underfitting, where a model fails to capture the underlying pattern in data.</p>
+        <a href="underfitting.html" target="_blank">Visit Page</a>
+      </div>
+      <!-- Card 8: Overfitting -->
+      <div class="card">
+        <h3>Overfitting</h3>
+        <p>This module explains Overfitting, where a model learns noise and performs poorly on new data.</p>
+        <a href="overfitting.html" target="_blank">Visit Page</a>
+      </div>
+    </div>
+  </div>
+  <footer style="background-color: #f4f4f4; padding: 20px; text-align: center; font-family: Raleway, sans-serif; font-size: 14px; color: #555;">
+    <p>
+      All rights of creation are reserved by <strong>Kselis E-School</strong> under copyright &copy; 2025.
+    </p>
+    <p>
+      <a href="/contact" style="margin-right: 15px; text-decoration: none; color: #667eea;">Contact Us</a>
+      |
+      <a href="/reach-us" style="margin-left: 15px; text-decoration: none; color: #667eea;">Mail Us</a>
+      |
+      <a href="/reach-us" style="margin-left: 15px; text-decoration: none; color: #667eea;">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
